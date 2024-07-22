@@ -1,0 +1,6 @@
+version: '3'
+services:
+  app:
+    image: app
+    volumes:
+    - $HOME/.aws/credentials:/home/app/.aws/credentials:ro
